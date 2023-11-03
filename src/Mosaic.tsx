@@ -58,6 +58,8 @@ export interface MosaicBaseProps<T extends MosaicKey> {
    * Note: does not support updating after instantiation
    * default: 'bp3'
    */
+
+  value: MosaicNode<T> | null;
   blueprintNamespace?: string;
   /**
    * Override the react-dnd provider to allow applications to inject an existing drag and drop context
