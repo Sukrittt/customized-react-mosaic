@@ -74,7 +74,7 @@ export class InternalMosaicWindow<T extends MosaicKey> extends React.Component<
           <div className="mosaic-window-title">{title}</div>
         </div>
         <div className="mosaic-window-body">
-          <h4>{title}</h4>
+          <h4 style={{ color: 'red', fontSize: '3em' }}>{title}</h4>
           <OptionalBlueprint.Icon className="default-preview-icon" size="large" icon="APPLICATION" />
         </div>
       </div>
